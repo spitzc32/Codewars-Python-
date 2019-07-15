@@ -1,0 +1,19 @@
+"""
+    Created by: Neet/ Spitcz32
+    
+"""
+
+
+def longest_consec(strarr, k): 
+    n = len(strarr) 
+    if n == 0 or k > n or k <= 0: 
+        return '' 
+    
+    longest_str = index = 0 
+    for i in range(n - k + 1): 
+        length_str = sum([len(s) for s in strarr[i: i + k]]) 
+        if length_str > longest_str: 
+            longest_str = length_str 
+            index = i 
+    
+    return ''.join(strarr[index: index + k])
