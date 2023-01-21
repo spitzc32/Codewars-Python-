@@ -12,6 +12,7 @@
    - Complementary DNA
    - Deodorant Evaporator
    - Sum Factorial
+   - yahtzee Upper
   
   
   6 KYU Kata(Novice):
