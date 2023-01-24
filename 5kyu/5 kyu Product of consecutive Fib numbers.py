@@ -35,3 +35,14 @@ def productFib(prod):
         if a*b >= prod: break 
          
     return [a,b,True] if a*b == prod else [a,b,False]
+
+def productFib(prod):
+    a,b = 0,1
+    
+    for i in range(int(m.sqrt(prod))):
+        a,b = b, a+b
+        if a*b > prod:
+            return [a,b,False]
+        elif a*b == prod:
+            return [a,b,True]
+    return 0 

@@ -9,3 +9,4 @@ def yahtzee_upper(dice):
         op.append(dice.count(x)*x)
     j=max(op)
     return j
+
