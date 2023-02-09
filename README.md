@@ -30,9 +30,7 @@
   
   
   5 KYU Kata(Novice):
-  
-  
-   - Product of consecutive Fib Numbers
+   - Product of consecutive Fib Numbers (Go, Python)
    - Pete the Baker
    - Your Order, Please
  
